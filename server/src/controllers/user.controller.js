@@ -32,7 +32,7 @@ const condition2Controller = async (_, res) => {
 const condition3Controller = async (_, res) => {
     const condition = {
         last_name: /^M/,
-        $where: "this.quote.length > 15",
+        quote: { $regex: /.{16,}/ },
         email: { $regex: /M$/i }
     }
     const data = await getUsers(condition)
