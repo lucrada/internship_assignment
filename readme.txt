@@ -1,5 +1,4 @@
-The root directory contains two folders 'client' and 'server'. As the name indicates all the front-end code is inside 'client' folder and 
-all the backend code is in 'server' folder.
+The root directory contains two folders 'client' and 'server'. As the name indicates all the front-end code is inside 'client' folder and all the backend code is in 'server' folder.
 
 client
 ---------
@@ -41,8 +40,6 @@ routes folder contains all the routes, the routes are as follows:
     /users/condition5 -> return table5 json data
     * -> anything other than these routes gives 404 error
 
-each route is associated with a controller which handles the request, these controllers are defined in the contoller folder
-there are five controllers for handling each of the 5 requests, each controllers make use of services like getUsers and highestUsersWithAvgIncome which is defined 
-inside services folder, these service function will interact with the database and return the data to the controller, controller then return the response back to the client.
+each route is associated with a controller which handles the request, these controllers are defined in the contoller folder there are five controllers for handling each of the 5 requests, each controllers make use of services like getUsers and highestUsersWithAvgIncome which is defined inside services folder, these service function will interact with the database and return the data to the controller, controller then return the response back to the client.
 
 server.js file contains usual boilerplate code for setting up express
