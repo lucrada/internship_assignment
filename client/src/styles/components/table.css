@@ -1,0 +1,89 @@
+@import '../animation.css';
+
+.table-parent {
+    opacity: 0;
+    animation: slide-up 0.7s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+    width: 100%;
+}
+
+.table {
+    border: 1px solid #3B3953;
+    width: 100%;
+    border-radius: 1rem;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table td,
+.table th {
+    padding: 0.7rem;
+}
+
+.table tr:not(:last-child) td {
+    border-bottom: 1px solid #3B3953;
+}
+
+.table tr:hover {
+    background-color: #3B3953;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3B3953;
+    color: #ffffff;
+}
+
+.table th:first-child {
+    border-top-left-radius: 1rem;
+}
+
+.table th:last-child {
+    border-top-right-radius: 1rem;
+}
+
+.table__id {
+    color: #a79aff;
+}
+
+.table-gender,
+.table-gender,
+.table-gender {
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+}
+
+.table-gender--Male {
+    background-color: #3aa8f7;
+}
+
+.table-gender--Female {
+    background-color: #fe4e71;
+}
+
+.table-gender--Genderfluid {
+    background-color: #bd33f8;
+}
+
+.table-gender--Bigender {
+    background-color: #00b400;
+}
+
+.table-gender--Polygender {
+    background-color: #2c2fc7;
+}
+
+.table-gender--Non-binary {
+    background-color: #b4003c;
+}
+
+.table-gender--Genderqueer {
+    background-color: #b47200;
+}
+
+.table__income {
+    color: #08c684;
+}
