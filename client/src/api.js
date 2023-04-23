@@ -1,7 +1,4 @@
-const HOST_NAME = 'localhost'
-const PORT = 4000
-
-const URL = `http://${HOST_NAME}:${PORT}/users/`
+const URL = 'https://internshipassignmentbackend.onrender.com/users/'
 
 export const fetchTable1 = async () => {
     try {
