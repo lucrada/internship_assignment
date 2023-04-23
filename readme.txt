@@ -1,3 +1,7 @@
+Website URL: https://starlit-crepe-532d7e.netlify.app/ , it is where the frontend of the website is deployed
+Server URL: https://internshipassignmentbackend.onrender.com/ , it is where the backend is deployed
+MongoDB is deployed using MongoDB Atlas
+
 The root directory contains two folders 'client' and 'server'. As the name indicates all the front-end code is inside 'client' folder and all the backend code is in 'server' folder.
 
 client
