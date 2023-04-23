@@ -3,7 +3,7 @@ const PORT = 4000
 
 const URL = `http://${HOST_NAME}:${PORT}/users/`
 
-const fetchTable1 = async () => {
+export const fetchTable1 = async () => {
     try {
         const response = await fetch(URL + 'condition1');
         const data = await response.json();
@@ -14,7 +14,7 @@ const fetchTable1 = async () => {
     }
 }
 
-const fetchTable2 = async () => {
+export const fetchTable2 = async () => {
     try {
         const response = await fetch(URL + 'condition2');
         const data = await response.json();
@@ -25,7 +25,7 @@ const fetchTable2 = async () => {
     }
 }
 
-const fetchTable3 = async () => {
+export const fetchTable3 = async () => {
     try {
         const response = await fetch(URL + 'condition3');
         const data = await response.json();
@@ -36,7 +36,7 @@ const fetchTable3 = async () => {
     }
 }
 
-const fetchTable4 = async () => {
+export const fetchTable4 = async () => {
     try {
         const response = await fetch(URL + 'condition4');
         const data = await response.json();
@@ -47,7 +47,7 @@ const fetchTable4 = async () => {
     }
 }
 
-const fetchTable5 = async () => {
+export const fetchTable5 = async () => {
     try {
         const response = await fetch(URL + 'condition5');
         const data = await response.json();
@@ -59,5 +59,3 @@ const fetchTable5 = async () => {
         return { success: false }
     }
 }
-
-module.exports = { fetchTable1, fetchTable2, fetchTable3, fetchTable4, fetchTable5 }
