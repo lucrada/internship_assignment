@@ -1,6 +1,7 @@
 @import '../animation.css';
 
 .table-parent {
+    overflow-x: auto;
     opacity: 0;
     animation: slide-up 0.7s;
     animation-delay: 0.7s;
